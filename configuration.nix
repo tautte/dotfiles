@@ -103,8 +103,7 @@
   environment.systemPackages = with pkgs; [
     # base
     gnome.gnome-terminal
-    #alacritty
-    pkgs.gnome3.gnome-tweaks
+    gnome.gnome-tweaks
     gnome.nautilus
     neovim
     wget
@@ -113,12 +112,10 @@
     htop
     powertop
     # dev
-    vscode
     gcc
     gdb
     git
     zig
-    go
     fzf
     ocaml
   ];
